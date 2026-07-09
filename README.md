@@ -1,12 +1,6 @@
-# Webpack-template-repo
+# Testing-practice
 
-Template webpack repository to start a new project quickly.
-
-## Create a repository from a template
-
-1. Navigate to the main page of this repository.
-2. Above the file list, click **Use this template**.
-3. Select **Create a new repository**.
+A repo where I practiced writing tests for five problems and making them pass. I understood basic Jest testing syntax and TDD philosophy. Also got to use different Jest Matchers for different test cases.
 
 ## Install required dependencies
 
@@ -14,14 +8,8 @@ Template webpack repository to start a new project quickly.
 npm install
 ```
 
-## Bundle/Build code
+## To test
 
 ```bash
-npm run build
-```
-
-## Start server
-
-```bash
-npm run dev
+npm test *.test.js
 ```
